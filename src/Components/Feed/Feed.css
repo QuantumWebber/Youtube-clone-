@@ -1,0 +1,46 @@
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px; /* Combined gap for rows and columns */
+    margin-top: 20px;
+    padding: 0 20px; /* Add padding to the sides for better spacing */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    overflow: hidden; /* Ensure the image doesn't overflow the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.card img {
+    width: 100%;
+    height: 150px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 10px 10px 0 0; /* Rounded corners only at the top */
+}
+
+.card h2 {
+    font-size: 16px;
+    margin: 10px 15px 5px; /* Add some margin around the text */
+    color: #333;
+    line-height: 1.3; /* Improve readability */
+}
+
+.card h3 {
+    font-size: 14px;
+    margin: 0 15px 5px;
+    color: #666;
+}
+
+.card p {
+    font-size: 12px;
+    margin: 0 15px 15px;
+    color: #888;
+}

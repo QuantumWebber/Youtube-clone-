@@ -1,0 +1,13 @@
+/* Main container for the video */
+.play-container {
+    margin-left: 250px; /* Default margin to accommodate the sidebar */
+    transition: margin-left 0.3s ease; /* Smooth transition for sidebar toggle */
+    padding: 20px; /* Add some padding for better spacing */
+    box-sizing: border-box; /* Ensure padding doesn’t break layout */
+  }
+  
+  /* When sidebar is closed */
+  .play-container.sidebar-closed {
+    margin-left: 0; /* Remove margin when sidebar is closed */
+  }
+  

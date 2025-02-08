@@ -1,0 +1,31 @@
+.container {
+    background-color: #f9f9f9;
+    padding: 20px 2% 20px 7%;
+    min-height: 100vh;
+    transition: margin-left 0.3s ease;
+    margin-left: 15%; /* Matches sidebar width */
+}
+
+.large-container {
+    margin-left: 5%; /* Adjusts when sidebar is hidden */
+}
+
+.toggle-btn {
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-left: 5%;
+    }
+
+    .large-container {
+        margin-left: 5%;
+    }
+}

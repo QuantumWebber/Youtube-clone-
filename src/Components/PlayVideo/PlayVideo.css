@@ -1,0 +1,166 @@
+/* Main container for the video player */
+.play-video {
+  width: 75%; /* Adjusted width for better balance */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px; /* Slightly rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+  margin-left: 5%;
+}
+
+/* Video element */
+.play-video iframe {
+  width: 100%;
+  border-radius: 12px; /* Matching rounded corners */
+  height: 40vw; /* Adjusted height to make the video player more proportional */
+}
+
+/* Video title */
+.play-video h3 {
+  margin-top: 20px;
+  font-size: 26px; /* Increased font size for better visibility */
+  color: #333;
+}
+
+/* Video info section (views, likes, dislikes, etc.) */
+.play-video-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 15px; /* Slightly larger font size */
+  color: #666;
+}
+
+.play-video-info div {
+  display: flex;
+  gap: 25px; /* Increased gap for better spacing */
+}
+
+.play-video-info span {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* Increased gap for better spacing */
+}
+
+.play-video-info img {
+  width: 22px; /* Slightly larger icons */
+  height: 22px;
+  cursor: pointer;
+}
+
+/* Horizontal line separator */
+.play-video hr {
+  margin: 20px 0;
+  border: 0;
+  height: 1px;
+  background-color: #ddd;
+}
+
+/* Publisher section (channel info and subscribe button) */
+.publisher {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Increased gap */
+}
+
+.publisher img {
+  width: 55px; /* Slightly larger image size */
+  height: 55px;
+  border-radius: 50%;
+}
+
+.publisher div p {
+  font-size: 20px; /* Slightly larger title for the publisher */
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.publisher div span {
+  font-size: 15px; /* Slightly larger font size */
+  color: #666;
+}
+
+.publisher button {
+  margin-left: 15px;
+  padding: 12px 25px; /* Adjusted padding */
+  background-color: #cc0000;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px; /* Slightly larger font size */
+}
+
+.publisher button:hover {
+  background-color: #b30000;
+}
+
+/* Video description */
+.description {
+  margin-top: 25px; /* Slightly larger margin */
+}
+
+.description p {
+  font-size: 15px; /* Slightly larger font size */
+  color: #333;
+  line-height: 1.6; /* Increased line-height for better readability */
+}
+
+.description hr {
+  margin: 25px 0; /* Adjusted margin */
+  border: 0;
+  height: 1px;
+  background-color: #ddd;
+}
+
+/* Comments section */
+.comments {
+  display: flex;
+  gap: 20px; /* Increased gap for better alignment */
+  margin-bottom: 25px; /* Larger margin */
+}
+
+.comments img {
+  width: 45px; /* Slightly larger avatar size */
+  height: 45px;
+  border-radius: 50%;
+}
+
+.comments h3 {
+  font-size: 18px; /* Slightly larger title */
+  color: #333;
+  margin: 0;
+}
+
+.comments h3 span {
+  font-size: 14px; /* Slightly larger timestamp */
+  color: #666;
+  margin-left: 12px; /* Increased margin */
+}
+
+.comments p {
+  font-size: 15px; /* Slightly larger font size */
+  color: #333;
+  margin: 7px 0; /* Adjusted margin */
+}
+
+.comment-action {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Increased gap */
+  margin-top: 12px; /* Adjusted margin */
+}
+
+.comment-action img {
+  width: 18px; /* Slightly larger icons */
+  height: 18px;
+  cursor: pointer;
+}
+
+.comment-action span {
+  font-size: 15px; /* Slightly larger text */
+  color: #666;
+}
